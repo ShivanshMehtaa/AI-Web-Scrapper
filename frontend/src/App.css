@@ -73,3 +73,26 @@ h1 {
 .result h2 {
   margin-top: 0;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #4b5563;
+  background: rgba(244, 246, 251, 0.95);
+  border-top: 1px solid #e5e7eb;
+}
+
+.footer a {
+  color: #4f46e5;
+}
+
+.credit {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #6b7280;
+}

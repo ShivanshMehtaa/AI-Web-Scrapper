@@ -76,8 +76,21 @@ function App() {
         <div className="result">
           <h2>Summary</h2>
           <ReactMarkdown>{summary}</ReactMarkdown>
+          <p className="credit">
+            Summarized with AI Web Page Summarizer by Shivansh Mehta
+          </p>
         </div>
       )}
+      <footer className="footer">
+        Built by <strong>SHIVANSH MEHTA</strong> ·{" "}
+        <a
+          href="https://github.com/shivanshmehtaa"
+          target="_blank"
+          rel="noreferrer"
+        >
+          GitHub
+        </a>
+      </footer>
     </div>
   );
 }

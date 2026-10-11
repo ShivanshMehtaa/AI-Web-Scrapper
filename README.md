@@ -2,8 +2,8 @@
 
 A full-stack app that takes a webpage URL, scrapes its text, and uses a free AI API (Groq) to generate a short summary.
 
-**Live demo:** <add your Vercel link here>
-**Backend API:** <add your Render link here>
+**Live demo:** https://ai-web-scrapper-wine.vercel.app/
+**Backend API:** https://ai-web-scrapper-api.onrender.com
 
 ## Tech Stack
 
