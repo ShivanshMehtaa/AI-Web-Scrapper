@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #f4f6fb;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+h1 {
+  margin: 0 0 4px;
+}
+
+.subtitle {
+  margin: 0 0 24px;
+  color: #6b7280;
+}
+
+.form {
+  display: flex;
+  gap: 8px;
+}
+
+.form input {
+  flex: 1;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.form button {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #fff;
+  background: #4f46e5;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form button:disabled {
+  background: #a5b4fc;
+  cursor: not-allowed;
+}
+
+.loading {
+  margin-top: 20px;
+  color: #4f46e5;
+}
+
+.error {
+  margin-top: 20px;
+  padding: 12px 14px;
+  color: #991b1b;
+  background: #fee2e2;
+  border-radius: 8px;
+}
+
+.result {
+  margin-top: 24px;
+  padding: 20px 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  line-height: 1.6;
+}
+
+.result h2 {
+  margin-top: 0;
+}
